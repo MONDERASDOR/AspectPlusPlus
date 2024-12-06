@@ -1,0 +1,56 @@
+name: aspect-package-manager
+version: 1.0.0
+
+repositories:
+  central: https://repo.aspectplusplus.com/central
+  snapshots: https://repo.aspectplusplus.com/snapshots
+  
+security:
+  checksum-verification: true
+  signature-verification: true
+  trusted-publishers:
+    - org.aspectplusplus
+    - com.trusted.vendors
+    
+dependency-resolution:
+  strategy: NEWEST_COMPATIBLE
+  conflict-resolution: FAIL_FAST
+  transitive-dependencies: true
+  
+features:
+  hot-reload: true
+  dependency-locking: true
+  vulnerability-scanning: true
+  license-compliance: true
+  
+build:
+  parallel-compilation: true
+  incremental-compilation: true
+  cache:
+    enabled: true
+    location: ${user.home}/.aspect/cache
+    max-size: 5GB
+    
+publishing:
+  repositories:
+    - id: central
+      url: https://repo.aspectplusplus.com/central
+      authentication:
+        type: TOKEN
+    - id: snapshots
+      url: https://repo.aspectplusplus.com/snapshots
+      
+ide-integration:
+  vscode:
+    extension-id: com.aspectplusplus.vscode
+    features:
+      - syntax-highlighting
+      - code-completion
+      - debugging
+      - refactoring
+  intellij:
+    plugin-id: com.aspectplusplus.intellij
+    features:
+      - full-language-support
+      - advanced-debugging
+      - profiling 

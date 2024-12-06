@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Modern, sleek icon design for Aspect++ -->
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#2962FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1565C0;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect x="32" y="32" width="192" height="192" rx="20" 
+          fill="url(#grad)" stroke="#1565C0" stroke-width="4"/>
+    
+    <!-- A++ text -->
+    <text x="128" y="148" font-family="Arial" font-size="72" 
+          font-weight="bold" fill="white" text-anchor="middle">A++</text>
+</svg> 
