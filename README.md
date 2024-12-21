@@ -42,10 +42,7 @@ i was obsessed with java when i was much younger. but In my old directory's. i f
    - Extract the files to a temporary location
 
 2. **Run Installation**
-   ```powershell
-   # Open PowerShell as Administrator
-   Start-Process -FilePath "run.bat" -Verb RunAs
-   ```
+   Double click Setup.exe
 
 3. **Environment Setup**
    - The installer will create AT++_HOME environment variable
