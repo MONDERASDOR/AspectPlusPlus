@@ -80,7 +80,7 @@ AT++ version 1.0.0
    Access denied...
    ```
    Solution:
-   - Right-click run.bat
+   - double-click setup.exe
    - Select "Run as administrator"
    - Check Windows Defender settings
 
