@@ -15,7 +15,7 @@ AT++ is a modern, aspect-oriented programming language that combines the power o
 
 # The Story Of founding This Project 
 
-i was obsessed with java when i was much younger. but In my old directory's. i found this project. i updated the premeters to be ready for new java versions. i didn't thought it might've work but....... it did
+i was obsessed with java when i was much younger. but In my old directory's. i found this project. i updated the premeters etc to be ready for new java versions. i didn't thought it might've work but. it did
 ## Table of Contents
 - [Installation](#installation)
   - [Prerequisites](#prerequisites)
