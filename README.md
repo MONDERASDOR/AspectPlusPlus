@@ -1,6 +1,7 @@
 # AT++ Programming Language
 
 AT++ is a modern, aspect-oriented programming language that combines the power of aspect-oriented programming (i made this just now.)with modern language features. And The First Java Based Language With It's Own Build (maybe). Not based On gradle or maven
+it's still in development. so i still didn't add an own java runtime for it until i test it completely.
 
 <div align="center">
     <img 
@@ -88,8 +89,8 @@ AT++ version 1.0.0
    'java' is not recognized...
    ```
    Solution:
-   - AT++ uses its own Java runtime
-   - No system Java required
+   - AT++ requires Jdk to be installed.
+   - Java Runtime still wasn't added        to the lang
    - Check AT++_HOME/jre directory
 
 ### Environment Variables
