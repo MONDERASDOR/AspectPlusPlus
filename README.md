@@ -1,6 +1,6 @@
 # AT++ Programming Language
 
-AT++ is a modern, aspect-oriented programming language that combines the power of aspect-oriented programming with modern language features. And The First Java Based Language With It's Own Build (maybe). Not based On gradle or maven
+AT++ is a modern, aspect-oriented programming language that combines the power of aspect-oriented programming (i made this just now.)with modern language features. And The First Java Based Language With It's Own Build (maybe). Not based On gradle or maven
 
 <div align="center">
     <img 
